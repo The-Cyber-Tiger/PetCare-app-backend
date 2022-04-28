@@ -1,4 +1,4 @@
-require('dotenv').config()
+// require('dotenv').config()
 
 export const config = {
     dbUrl: `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.9sp3u.mongodb.net/petcare-app?retryWrites=true&w=majority`,
